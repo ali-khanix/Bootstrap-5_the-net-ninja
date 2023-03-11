@@ -21,6 +21,52 @@
     </style>
   </head>
   <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-xxl">
+          <a href="#intro" class="navbar-brand">
+            <span class="fw-bold text-secondary"> Ali khani Pro </span>
+          </a>
+
+          <!-- Toggle button for mobile nav -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main-nav"
+            aria-controls="main-nav"
+            aria-expanded="false"
+            aria-label="toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end align-center"
+            id="main-nav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#topics" class="nav-link">About the book</a>
+              </li>
+              <li class="nav-item">
+                <a href="#reviews" class="nav-link">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact" class="nav-link">Get in touch</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#pricing"
+                  class="nav-link btn btn-secondary btn-lg text-white"
+                  >Buy now</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <!-- Main image & intro text -->
       <section id="intro">
@@ -44,6 +90,53 @@
                 src="Assets/Images/ebook-cover.png"
                 alt="Ebook cover"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing plans -->
+      <section id="pricing" class="bg-light mt-5">
+        <div class="container-lg">
+          <div class="text-center">
+            <h2>Pricing plans</h2>
+            <p class="lead text-muted">Choose a pricing plan to suit you</p>
+          </div>
+
+          <div class="row my-5 align-items-center justify-content-center">
+            <div class="col-8 col-lg-4 col-xl-3">
+              <div class="card border-0">
+                <div class="card-body text-center py-4">
+                  <h4 class="card-title">Starter edition</h4>
+                  <p class="lead card-subtitle">eBook download only</p>
+                  <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+                  <p class="card-text mx-5 text-muted d-none d-lg-block">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-outline-primary btn-lg mt-3"
+                    >Buy now</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-9 col-lg-4">
+              <div class="card border-primary border-2">
+                <div class="card-header text-center text-primary">
+                  Most papular
+                </div>
+                <div class="card-body text-center py-5">
+                  <h4 class="card-title">Starter edition</h4>
+                  <p class="lead card-subtitle">eBook download only</p>
+                  <p class="display-4 my-4 text-primary fw-bold">$12.99</p>
+                  <p class="card-text mx-5 text-muted d-none d-lg-block">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-outline-primary btn-lg mt-3"
+                    >Buy now</a
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
