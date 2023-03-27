@@ -21,10 +21,10 @@
     </style>
   </head>
   <body>
-    <header class="header">
+    <header class="header container-lg">
       <nav class="navbar navbar-expand-md navbar-light">
         <div class="container-xxl">
-          <a href="#intro" class="navbar-brand">
+          <a href="#intro" class="navbar-brand d-block">
             <span class="fw-bold text-secondary"> Ali khani Pro </span>
           </a>
 
@@ -135,6 +135,76 @@
                   <a href="#" class="btn btn-outline-primary btn-lg mt-3"
                     >Buy now</a
                   >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-8 col-lg-4 col-xl-3">
+              <div class="card border-0">
+                <div class="card-body text-center py-4">
+                  <h4 class="card-title">Starter edition</h4>
+                  <p class="lead card-subtitle">eBook download only</p>
+                  <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+                  <p class="card-text mx-5 text-muted d-none d-lg-block">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-outline-primary btn-lg mt-3"
+                    >Buy now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About books section -->
+      <section id="topics">
+        <div class="container-md">
+          <div class="text-center">
+            <h2>Inside the book...</h2>
+            <p class="lead text-muted">
+              A quick glance at the topics you'll learn
+            </p>
+          </div>
+
+          <div class="row my-5 g-5 justify-content-around align-items-center">
+            <div class="col-6 col-lg-4">
+              <img
+                src="Assets/Images/kindle.png"
+                alt="ebook"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <!-- Accordion -->
+          <div class="accordion" id="chapters">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-1">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#chapter-1"
+                  aria-expanded="true"
+                  aria-controls="chapter-1"
+                >
+                  Chapter 1 - Your first web page
+                </button>
+              </h2>
+
+              <div
+                id="chapter-1"
+                class="accorgion-collapse collapse show"
+                aria-labelledby="heading-1"
+                data-bs-parent="#chapters"
+              >
+                <div class="accordion-body">
+                  accordion item 1 content Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Neque similique explicabo
+                  consequatur voluptate odit quo nemo quaerat commodi porro
+                  ratione.
                 </div>
               </div>
             </div>
